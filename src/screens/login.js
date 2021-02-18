@@ -1,9 +1,17 @@
-import React from 'react'
-import { Text } from 'react-native'
-
+import React , { useContext } from 'react'
+import { SafeAreaView, Text , View } from 'react-native'
+import Display from '../context/display_context'
 
 export default props => {
+
+    const { display:{ Styles } } = useContext(Display)
+
     return (
-        <Text style={{fontFamily:'Montserrat-Regular',fontSize:54,fontWeight:"400"}}>Olá, seja bem-vindo!</Text>
+        <SafeAreaView>
+            <View style={Styles.LoginPage.box}>
+                <Text>Teste</Text>
+            </View>
+        </SafeAreaView>
     )
 }
+
