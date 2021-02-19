@@ -1,8 +1,9 @@
 import React , { useContext } from 'react'
-import { SafeAreaView , Image , View } from 'react-native'
+import { SafeAreaView , Image , View , Text} from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import Display from '../context/display_context'
 import Inputs from '../components/login_page/inputs'
+import Button from '../components/login_page/button'
 
 export default props => {
 
@@ -19,6 +20,12 @@ export default props => {
             </View>
             <View style={Styles.LoginPage.cont_inputs}>
                 <Inputs></Inputs>
+                <Button></Button>
+            </View>
+            <View style={Styles.LoginPage.cont_fgt_psw}>
+                <Text style={Styles.LoginPage.fgt_psw_txt}>Esqueceu seu login ou senha?{"\n"}</Text>
+                <Text style={Styles.LoginPage.fgt_psw_txt2}>Clique</Text>
+                <Text style={Styles.LoginPage.fgt_psw_under_txt}>aqui</Text>
             </View>
         </SafeAreaView>
     )

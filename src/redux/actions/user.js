@@ -5,3 +5,7 @@ export function getEmail( mail ){
 export function getPsw( password ){
     return {type:'GET_PSW' , payload: password }
 }
+
+export function getAuthUsers (user){
+    return {type:'GET_USERS_REQUESTED' , payload: user }
+}
