@@ -1,8 +1,13 @@
 function login_control( users , user_email , user_psw , setShouldShow , setMsg){
     
-    if (user_email.length === 0 || user_psw.length === 0) {
+    if(users.length === 0){
+        setMsg("Não foi possível carregar os dados do servidor para autenticação!")
+        setShouldShow(true)
+        return
+    } else if (user_email.length === 0 || user_psw.length === 0) {
         setMsg("Não é possível logar com algum dos campos vazios!")
         setShouldShow(true)
+        return
     } else{
         for(let i=0;i<users[0].length;i++){ 
             if(user_email[0] === users[0][i].email){

@@ -138,27 +138,7 @@ export default StyleSheet.create({
         fontSize: 14,
         lineHeight:20,
         textAlign:'center',
-        color:'#FFFFFF'
-        
-    },
-    fgt_psw_txt2:{
-        fontFamily:'Montserrat-Regular',
-        fontSize: 14,
-        lineHeight:20,
-        textAlign:'center',
-        color:'#FFFFFF',
-        marginTop:-18,
-        right:20        
-    },
-    fgt_psw_under_txt:{
-        fontFamily:'Montserrat-Regular',
-        fontSize: 14,
-        lineHeight:20,
-        textAlign:'center',
-        color:'#FFFFFF',
-        marginTop: -20,
-        left:22,
-        textDecorationLine:'underline'
+        color:'#FFFFFF' 
     },
     /*      Inputs      */
     input_log:{
