@@ -23,9 +23,7 @@ export default props => {
                 <Button></Button>
             </View>
             <View style={Styles.LoginPage.cont_fgt_psw}>
-                <Text style={Styles.LoginPage.fgt_psw_txt}>Esqueceu seu login ou senha?{"\n"}</Text>
-                <Text style={Styles.LoginPage.fgt_psw_txt2}>Clique</Text>
-                <Text style={Styles.LoginPage.fgt_psw_under_txt}>aqui</Text>
+                <Text style={Styles.LoginPage.fgt_psw_txt}>Esqueceu seu login ou senha?{"\n"}Clique <Text style={{textDecorationLine: 'underline'}}>aqui</Text></Text>
             </View>
         </SafeAreaView>
     )
