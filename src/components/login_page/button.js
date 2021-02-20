@@ -14,7 +14,7 @@ export default props => {
     const users = useSelector(state => state.user.auth_users)
     const user_email = useSelector(state => state.user.email)
     const user_psw = useSelector(state => state.user.password)
-    const [shouldShow, setShouldShow] = useState(false);
+    const [shouldShow, setShouldShow] = useState(true);
     const [msg , setMsg] = useState("");
 
     useEffect(() => {

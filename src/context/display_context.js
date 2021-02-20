@@ -15,7 +15,8 @@ export const DisplayProvider = props => {
     return (
         <DisplayContext.Provider value={{
             display: {
-                Styles
+                Styles,
+                tablet
             }
         }}>
             {props.children}
