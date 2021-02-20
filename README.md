@@ -3,17 +3,25 @@
 Desenvolvido para Android
 
 Utilização:
+
     Android Studio:
         instalar as dependências com "npm i"
-        abrir o app com o dispositivo já iniciado  "npx react-native run-android"
+        abrir o app com "npx react-native run-android"
     Via apk:
         instalar o arquivo apk disponibilizado na pasta Instalador da raíz do projeto
+
+Email e senhas para teste:
+    
+    teste1@example.com - 123456
+    teste2@example.net - 123456
+    teste3@example.org - 654321
+    teste4@example.org - 654321
 
 ## Screenshots
 
 <p align="center">
-<img src="https://github.com/joaolucio99/Bingo/blob/master/screenshots/img1.png?raw=true" width="300" />
-<img src="https://github.com/joaolucio99/Bingo/blob/master/screenshots/img2.png?raw=true" width="300" />
+<img src="https://github.com/joaolucio99/login_with_react-native/blob/main/screenshots/tablet.jpg" width="200" />
+<img src="https://github.com/joaolucio99/login_with_react-native/blob/main/screenshots/mobile.jpg" width="100" />
 </p>
 
 ## License
