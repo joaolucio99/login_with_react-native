@@ -19,9 +19,9 @@ Email e senhas para teste:
 
 ## Screenshots
 
-<p align="center">
-<img src="https://github.com/joaolucio99/login_with_react-native/blob/main/screenshots/tablet.jpg" width="200" />
-<img src="https://github.com/joaolucio99/login_with_react-native/blob/main/screenshots/mobile.jpg" width="100" />
+<p>
+<img src="https://github.com/joaolucio99/login_with_react-native/blob/main/screenshots/tablet.jpg" width="200" hspace="50"/>                  
+<img src="https://github.com/joaolucio99/login_with_react-native/blob/main/screenshots/mobile.jpg" width="100" hspace="50"/>
 </p>
 
 ## License
